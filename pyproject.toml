@@ -6,10 +6,8 @@ authors = [""]
 
 [tool.poetry.dependencies]
 python = "^3.5"
-celery = {version="3.1.23", source="douban"}
-
-[tool.poetry.dev-dependencies]
+celery = {version="*", source="douban"}
 
 [[tool.poetry.source]]
 name = "douban"
-url = "https://pypi.douban.com/simple"
+url = "https://pypi.douban.com/simple/"
